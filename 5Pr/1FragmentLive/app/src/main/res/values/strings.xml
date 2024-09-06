@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FragmentLive</string>
+    <string name="fr1_text">Fragment 1</string>
+    <string name="fr2_text">Fragment 2</string>
+</resources>

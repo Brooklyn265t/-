@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/resmax"
+        android:layout_width="280dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="112dp"
+        android:text="Макс. Температура"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/resmin"
+        android:layout_width="280dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="112dp"
+        android:text="Мин. Температура"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/maxTemp"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="32dp"
+        android:text="56"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/minTemp"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="32dp"
+        android:text="73"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/CityName"
+        android:layout_width="201dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="16dp"
+        android:text="Город"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Data"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="76dp"
+        android:text="Дата"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/DataToday"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="32dp"
+        android:text="27.04.2024"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Weather1"
+        android:layout_width="131dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="248dp"
+        android:text="Погода"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/openButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="124dp"
+        android:text="Получить погоду"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/IconWeather"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="260dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

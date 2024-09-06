@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlertDialog</string>
+    <string name="ОК">OK</string>
+    <string name="Отмена">Oтмена</string>
+</resources>

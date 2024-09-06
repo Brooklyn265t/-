@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ListFromMyAdapter</string>
+    <string name="box" />
+    <string name="header_title">Header</string>
+    <string name="footer_title">Footer</string>
+</resources>

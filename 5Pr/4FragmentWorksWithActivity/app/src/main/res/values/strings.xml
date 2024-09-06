@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FragmentWorksWithActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log">Log</string>
+    <string name="frag1_txt">Fragment 1</string>
+    <string name="frag2_txt">Fragment 2</string>
+    <string name="find">Find</string>
+</resources>

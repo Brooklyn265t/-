@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/program"
+        android:title="Programe"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/me"
+        android:title="aboutme"
+        android:icon="@android:drawable/ic_menu_help"
+        app:showAsAction="always" />
+
+</menu>
